@@ -18,6 +18,11 @@
 		3FAD836D27E01944002A7F79 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD836C27E01944002A7F79 /* Mission.swift */; };
 		3FAD836F27E02119002A7F79 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD836E27E02119002A7F79 /* ColorTheme.swift */; };
 		3FAD837127E02614002A7F79 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD837027E02614002A7F79 /* MissionView.swift */; };
+		3FAD837327E02C29002A7F79 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD837227E02C29002A7F79 /* AstronautView.swift */; };
+		3FAD837527E03841002A7F79 /* GridLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD837427E03841002A7F79 /* GridLayoutView.swift */; };
+		3FAD837727E0384E002A7F79 /* ListLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD837627E0384E002A7F79 /* ListLayoutView.swift */; };
+		3FAD837F27E049CA002A7F79 /* RectangleDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD837E27E049CA002A7F79 /* RectangleDividerView.swift */; };
+		3FAD838127E04A30002A7F79 /* HScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD838027E04A30002A7F79 /* HScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		3FAD836C27E01944002A7F79 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		3FAD836E27E02119002A7F79 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 		3FAD837027E02614002A7F79 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		3FAD837227E02C29002A7F79 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		3FAD837427E03841002A7F79 /* GridLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutView.swift; sourceTree = "<group>"; };
+		3FAD837627E0384E002A7F79 /* ListLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayoutView.swift; sourceTree = "<group>"; };
+		3FAD837E27E049CA002A7F79 /* RectangleDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDividerView.swift; sourceTree = "<group>"; };
+		3FAD838027E04A30002A7F79 /* HScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +77,13 @@
 			children = (
 				3FAD835627DFECAF002A7F79 /* JoshanRai_MoonshotApp.swift */,
 				3FAD835827DFECAF002A7F79 /* ContentView.swift */,
+				3FAD837427E03841002A7F79 /* GridLayoutView.swift */,
+				3FAD837627E0384E002A7F79 /* ListLayoutView.swift */,
+				3FAD837227E02C29002A7F79 /* AstronautView.swift */,
 				3FAD836E27E02119002A7F79 /* ColorTheme.swift */,
 				3FAD837027E02614002A7F79 /* MissionView.swift */,
+				3FAD838027E04A30002A7F79 /* HScrollView.swift */,
+				3FAD837E27E049CA002A7F79 /* RectangleDividerView.swift */,
 				3FAD836C27E01944002A7F79 /* Mission.swift */,
 				3FAD836827E016D3002A7F79 /* Astronaut.swift */,
 				3FAD836A27E01739002A7F79 /* BundleDecodable.swift */,
@@ -162,8 +177,13 @@
 			files = (
 				3FAD837127E02614002A7F79 /* MissionView.swift in Sources */,
 				3FAD836927E016D3002A7F79 /* Astronaut.swift in Sources */,
+				3FAD837527E03841002A7F79 /* GridLayoutView.swift in Sources */,
+				3FAD837327E02C29002A7F79 /* AstronautView.swift in Sources */,
+				3FAD837727E0384E002A7F79 /* ListLayoutView.swift in Sources */,
 				3FAD836B27E01739002A7F79 /* BundleDecodable.swift in Sources */,
+				3FAD838127E04A30002A7F79 /* HScrollView.swift in Sources */,
 				3FAD835927DFECAF002A7F79 /* ContentView.swift in Sources */,
+				3FAD837F27E049CA002A7F79 /* RectangleDividerView.swift in Sources */,
 				3FAD836F27E02119002A7F79 /* ColorTheme.swift in Sources */,
 				3FAD836D27E01944002A7F79 /* Mission.swift in Sources */,
 				3FAD835727DFECAF002A7F79 /* JoshanRai_MoonshotApp.swift in Sources */,
@@ -309,7 +329,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jrai.JoshanRai-Moonshot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -338,7 +358,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jrai.JoshanRai-Moonshot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
