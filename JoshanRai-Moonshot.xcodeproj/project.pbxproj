@@ -16,6 +16,7 @@
 		3FAD836927E016D3002A7F79 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD836827E016D3002A7F79 /* Astronaut.swift */; };
 		3FAD836B27E01739002A7F79 /* BundleDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD836A27E01739002A7F79 /* BundleDecodable.swift */; };
 		3FAD836D27E01944002A7F79 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD836C27E01944002A7F79 /* Mission.swift */; };
+		3FAD836F27E02119002A7F79 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAD836E27E02119002A7F79 /* ColorTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		3FAD836827E016D3002A7F79 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		3FAD836A27E01739002A7F79 /* BundleDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDecodable.swift; sourceTree = "<group>"; };
 		3FAD836C27E01944002A7F79 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		3FAD836E27E02119002A7F79 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				3FAD835627DFECAF002A7F79 /* JoshanRai_MoonshotApp.swift */,
 				3FAD835827DFECAF002A7F79 /* ContentView.swift */,
+				3FAD836E27E02119002A7F79 /* ColorTheme.swift */,
 				3FAD836C27E01944002A7F79 /* Mission.swift */,
 				3FAD836827E016D3002A7F79 /* Astronaut.swift */,
 				3FAD836A27E01739002A7F79 /* BundleDecodable.swift */,
@@ -157,6 +160,7 @@
 				3FAD836927E016D3002A7F79 /* Astronaut.swift in Sources */,
 				3FAD836B27E01739002A7F79 /* BundleDecodable.swift in Sources */,
 				3FAD835927DFECAF002A7F79 /* ContentView.swift in Sources */,
+				3FAD836F27E02119002A7F79 /* ColorTheme.swift in Sources */,
 				3FAD836D27E01944002A7F79 /* Mission.swift in Sources */,
 				3FAD835727DFECAF002A7F79 /* JoshanRai_MoonshotApp.swift in Sources */,
 			);
@@ -301,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.7;
+				MARKETING_VERSION = 0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jrai.JoshanRai-Moonshot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -330,7 +334,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.7;
+				MARKETING_VERSION = 0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jrai.JoshanRai-Moonshot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
